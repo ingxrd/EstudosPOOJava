@@ -1,6 +1,6 @@
 package Arrays;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Array7 {
     // Remova um valor específico de um array.
@@ -12,12 +12,12 @@ public class Array7 {
         removerValorDessaArray.add("Vou ficar na Array");
         removerValorDessaArray.add("Adieu!");
 
-        System.out.println("Valores antes da remoção: " + removerValorDessaArray.indexOf("Adieu!")); // verifica o index.
+        System.out.println("Valores antes da remoção: " + removerValorDessaArray);
 
-        removerValorDessaArray.remove(1);
-        removerValorDessaArray.remove(3);
+        // Remove valores específicos
+        removerValorDessaArray.remove("Munhoz");
+        removerValorDessaArray.remove("Adieu!");
 
-        System.out.println("Valor removido com sucesso. Valores na Array" + removerValorDessaArray);
-
+        System.out.println("Valores após a remoção: " + removerValorDessaArray);
     }
 }

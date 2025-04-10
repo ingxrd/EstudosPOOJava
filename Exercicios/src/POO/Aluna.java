@@ -2,8 +2,8 @@ package POO;
 
 public class Aluna {
     String nome;
-    int nota1;
-    int nota2;
+    float nota1;
+    float nota2;
 
     public Aluna(String nome, int nota1, int nota2){
         this.nome = nome;
